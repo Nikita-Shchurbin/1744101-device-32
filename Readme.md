@@ -1,7 +1,8 @@
 # Личный проект «Девайс»
 
 * Студент: [Никита Щурбин](https://up.htmlacademy.ru/htmlcss/32/user/1744101).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Локтев](https://htmlacademy.ru/profile/arloktev)
+
 
 ---
 
