@@ -7,7 +7,9 @@
   <body>
     <header class="page-catalog">
       <nav class="navigation">
+        <a class="page-header-logo" href="index.html">
         <img class="logo" src="" alt="Логотип Device" />
+        </a>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <form
@@ -18,6 +20,11 @@
               <input type="search" />
               <button class="button" type="submit">Поиск</button>
             </form>
+          </li>
+          <li>
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Коля Петухов</span>
+            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -54,10 +61,18 @@
     </header>
     <main class="main-catalog">
       <section class="description">
-        <h3 class="description-title">Моноподы для селфи</h3>
-        <a class="description-link" href="index.html">Главная</a>
-        <a class="description-link" href="#">Каталог товаров</a>
-        <a class="description-link" href="#">Моноподы для селфи</a>
+        <h1 class="description-title">Моноподы для селфи</h1>
+        <ul class="breadcrumb">
+          <li>
+        <a href="index.html">Главная</a>
+          </li>
+          <li>
+        <a href="#">Каталог товаров</a>
+          </li>
+          <li>
+        <a href="#">Моноподы для селфи</a>
+          </li>
+      </ul>
       </section>
       <section class="filter">
         <h2 class="filter-title">фильтр:</h2>
@@ -189,11 +204,11 @@
         </form>
           <ul class="product-list">
             <li class="product-card">
-          <a class="product-card-link" href="product.html">
+          <a class="product-card-link" href="#">
             <img class="product-card-image" src="" alt="">
             <h3 class="product-card-title">Любительская селфи-палка</h3>
           </a>
-          <b class="product-card-price">500 ₽</b>
+          <p class="product-card-price">500 ₽</p>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="#">
@@ -287,3 +302,5 @@
     </footer>
   </body>
 </html>
+
+
