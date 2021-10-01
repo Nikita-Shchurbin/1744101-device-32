@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Raleway Extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("//Users/Admin/Desktop/1744101-device-32/fonts/raleway/raleway-800.woff2")
+    format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//Users/Admin/Desktop/1744101-device-32/fonts/rubik/rubik-400.woff2")
+    format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik Bold ";
+  font-style: normal;
+  font-weight: 700;
+  src: url("//Users/Admin/Desktop/1744101-device-32/fonts/rubik/rubik-700.woff2")
+    format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik Extra-bold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("//Users/Admin/Desktop/1744101-device-32/fonts/rubik/rubik-800.woff2")
+    format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "Raleway Extra-bold", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+  background-color: #e5e5e5;
+}
+.page-header {
+  color: #000000;
+  background-color: #ffe17f;
+}
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+}
