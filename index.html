@@ -9,11 +9,11 @@
     <header class="page-header">
       <nav class="navigation">
         <img class="logo" src="img/logodevice.svg" alt="Логотип Device" width="145" height="36">
-        <ul class="navigation-list">
+        <ul class="navigation-list-first">
           <li class="navigation-item">
             <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
               <input type="search">
-              <button class="button" type="submit">Поиск</button>
+              <button class="button" type="submit"><span class="visually-hidden">Поиск</span></button>
             </form>
           </li>
           <li class="navigation-item">
@@ -48,7 +48,7 @@
       </nav>
     </header>
     <main class="main-index">
-     <!-- <img class="pic" src="img/index/slider-1.jpg" alt="квадрокоптер" width="560" height="560"> -->
+    <img class="pic" src="img/index/slider-1.jpg" alt="квадрокоптер" width="560" height="560">
       <section class="advantages">
         <h2 class="advantages-title">Порхает как бабочка,<br>жалит как пчела!</h2>
       <p>Этот обычный, на первый взгляд, квадрокоптер оснащен<br>мощным лазером, замаскированным под стандартную камеру.</p>
@@ -110,8 +110,8 @@
       </ul>
     </section>
     <section class="car-delivery">
-    <img class="logo" src="img/index/car-delivery.png" alt="Логотип Device" width="125" height="100">
-      <p>Доставим редкий товар под заказ</p>
+    <img class="logo" src="img/index/delivery-car.svg" alt="Логотип car-delivery" width="47" height="32">
+      <p class="car-delivery-title">Доставим редкий товар под заказ</p>
     </section>
     <section class="details">
       <h2 class="details-title">О нас</h2>
@@ -133,31 +133,31 @@
       <h2 class="contacts-title">Контакты</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, сможете проверить работоспособность покупки. </p>
       <h3 class="contacts-subtitle">Интернет-магазин «Девайс»</h3>
-      <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+      <p class="contacts-addres">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       <a class="contacts-phone" href="tel:+78128121212">+7(812) 812-12-12 </a>
       <h3 class="contacts-subtitle">Время работы</h3>
-      <p>пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
+      <p class="contacts-mode">пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
       <a>Напишите нам</a>
     </section>
     <section class="mailing">
-      <h2 class="mailing-title">Подпишитесь на рассылку</h2>
-      <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+      <h2 class="mailing-title" href="#">Подпишитесь на рассылку</h2>
+      <p class="mailing-subtitle">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
       <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
         <input type="text">
         <button class="button" type="submit">Подписаться</button>
         </form>
-      <p>Это бесплатно</p>
+      <p class="mailing-text">Это бесплатно</p>
     </section>
   </header>
     </main>
-    <footer class="page-footer">
+    <footer class="footer">
       <img class="logo" src="img/logodevice.svg" alt="Логотип Device" width="145" height="36">
       <section class="footer-map">
         <h2 class="visually-hidden">Месторасположение</h2>
-        <p>Санкт-Петербург, набережная
+        <p class="footer-map-addres">Санкт-Петербург, набережная
           реки Карповки, 5, литера П.</p>
       </section>
-      <section class="footer">
+      <section class="footer-menu">
         <ul class="footer-item">
           <li class="footer-list">
             <a>Доставка</a>
@@ -169,20 +169,20 @@
             <a>Контакты</a>
           </li>
       </ul>
-      <ul class="footer-item">
-        <li class="footer-list">
-      <a class="button" href="#">Facebook</a>
+      <ul class="socials-item">
+        <li class="socials-list">
+      <a class="button" href="#"><span class="visually-hidden">Facebook</span></a>
         </li>
-        <li class="footer-list">
-          <a class="button" href="#">instagram</a>
+        <li class="socials-list">
+          <a class="button" href="#"><span class="visually-hidden">instagram</span></a>
         </li>
-        <li class="footer-list">
-          <a class="button" href="#">Twitter</a>
+        <li class="socials-list">
+          <a class="button" href="#"><span class="visually-hidden">Twitter</span></a>
         </li>
     </ul>
       </section>
       <section class="footer-contacts">
-      <p>тел.:<a class="footer-phone" href="tel:+78128121212">+7(812) 812-12-12 </a></p>
+      <p class="contact-phone">тел.:<a class="footer-phone" href="tel:+78128121212">+7(812) 812-12-12 </a></p>
       <img class="logo" src="img/htmlacademy.svg" alt="Логотип htmlacademy" width="115" height="34">
       </section>
     </footer>

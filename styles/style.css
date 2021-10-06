@@ -1,3 +1,18 @@
+:root {
+  --basic-black: #000000;
+  --basic-extra-black: #444444;
+  --basic-grey: #dcdcdc;
+  --basic-extra-grey: #ebebeb;
+  --basic-white: #f0f0f0;
+  --basic-extra-white: #ffffff;
+  --basic-yellow: #ffe17f;
+  --basic-extra-yellow: #ffc700;
+  --basic-purple: #af4fff;
+  --basic-red: #ff3d3d;
+  --basic-orange: #fd912e;
+  --basic-green: #08af00;
+}
+
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -47,124 +62,128 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+.navigation-list-first {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
 
 .advantages {
   text-align: right;
-  background-image: url(../img/index/slider-1.jpg);
-  background-repeat: no-repeat;
 }
 .advantages-title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
 }
-.advanatges-subtitle {
-  font-family: "Rubik" sans-serif;
+.advantages-subtitle {
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+.advantages-description {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
   text-transform: uppercase;
 }
 .products-img {
   background-color: #ffe17f;
 }
 .products-text {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
 }
 .service-title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
 }
-.service-subtitle {
-  font-family: "Rubik" sans-serif;
-  font-size: 18px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
 .details-title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
 }
 .details-subtitle {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
 }
 .details-list {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
 }
 .contacts-title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
 }
 .contacts-subtitle {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
 }
 .mailing-title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
 }
-.footer-item {
-  font-family: "Raleway" sans-serif;
+.socials-item {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
 }
 .description-title {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
 }
-.breadcrumb {
-  font-family: "Rubik" sans-serif;
+.breadcrumb-item {
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
 }
 .filter-title {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
 }
 .legend {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
 }
 .product-card-title {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
   color: #444444;
 }
 .product-card-price {
-  font-family: "Rubik" sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
 }
-.pagination {
-  font-family: "Rubik" sans-serif;
+.pagination-item {
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
@@ -174,4 +193,11 @@ body {
 }
 .pagination-link {
   color: #444444;
+}
+.footer-map-addres {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: var(--basic-extra-white);
 }
