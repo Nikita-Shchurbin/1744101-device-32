@@ -9,28 +9,30 @@
     <header class="page-header">
       <nav class="navigation">
         <img class="logo" src="img/logodevice.svg" alt="Логотип Device" width="145" height="36">
-        <ul class="navigation-list-first">
-          <li class="navigation-item">
-            <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+
+
+          <div class="navi-header">
+          <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
               <input type="search">
-              <button class="button" type="submit"><span class="visually-hidden">Поиск</span></button>
+              <button class="button" type="submit"><span class="navigation-title">Поиск</span></button>
             </form>
-          </li>
+            <ul class="navigation-user-menu">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">войти</span>
+              <span class="navigation-title">войти</span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">сравнить</span>
+              <span class="navigation-title">сравнить</span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">корзина</span>
+              <span class="navigation-title">корзина</span>
           </a>
         </ul>
+      </div>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Каталог товаров</a>
@@ -50,8 +52,9 @@
 
     <main class="main-container main-index">
       <div class="page-container">
-    <img class="pic" src="img/index/slider-1.jpg" alt="квадрокоптер" width="560" height="560">
       <section class="advantages">
+        <img class="pic" src="img/index/slider-1.jpg" alt="квадрокоптер" width="560" height="560">
+        <div class="advantages-container">
         <h2 class="advantages-title">Порхает как бабочка,<br>жалит как пчела!</h2>
       <p class="advantages-text">Этот обычный, на первый взгляд, квадрокоптер оснащен<br>мощным лазером, замаскированным под стандартную камеру.</p>
           <h3 class="advantages-subtitle">подробнее</h3>
@@ -59,6 +62,7 @@
           <p class="advantages-description">дальность полета</p>
           <h3 class="advantages-subtitle">50 м</h3>
           <p class="advantages-description">радиус поражения</p>
+        </div>
     </section>
     <section class="products">
       <ul class="products-list">
@@ -89,32 +93,35 @@
     </ul>
     </section>
     <section class="service">
+      <div class="container">
       <ul class="service-list">
       <li class="service-item">
         <h3 class="service-title">Доставка</h3>
         <p class="service-subtitle">Мы с удовольствием доставим ваш товар прямо
           к вашему подъезду совершенно бесплатно! Ведь
           мы неплохо заработаем, поднимая его на ваш этаж.</p>
-          <img class="products-img" src="img/index/delivery.svg" alt="доставка" width="136" height="164">
+          <img class="service-img" src="img/index/delivery.svg" alt="доставка" width="136" height="164">
       </li>
-      <li class="service-item">
+      <li class="service-item" hidden>
         <h3 class="service-title">Гарантия</h3>
         <p class="service-subtitle">Если из-за возгорания купленного у нас товара у вас
           сгорит дом — не переживайте, мы выдадим вам новый.
           Товар, не дом, конечно же.</p>
       </li>
-      <li class="service-item">
+      <li class="service-item" hidden>
         <h3 class="service-title">Кредит</h3>
         <p class="service-subtitle">Если из-за возгорания купленного у нас товара у вас
           сгорит дом — не переживайте, мы выдадим вам новый.
           Товар, не дом, конечно же.</p>
       </li>
       </ul>
+    </div>
     </section>
     <section class="car-delivery">
     <img class="logo" src="img/index/delivery-car.svg" alt="Логотип car-delivery" width="47" height="32">
       <p class="car-delivery-title">Доставим редкий товар под заказ</p>
     </section>
+    <div class="container-contacts">
     <section class="details">
       <h2 class="details-title">О нас</h2>
       <p class="details-subtitle">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас. Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
@@ -141,21 +148,28 @@
       <p class="contacts-mode">пн—пт: с 10:00 до 22:00 сб—вс: с 10:00 до 19:00</p>
       <a>Напишите нам</a>
     </section>
+  </div>
     <section class="mailing">
+      <div class="container-mailing">
+        <div class="mailing-text">
       <h2 class="mailing-title" href="#">Подпишитесь на рассылку</h2>
       <p class="mailing-subtitle">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+    </div>
+    <div class="mailing-settings">
       <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
         <input type="text">
         <button class="button" type="submit">Подписаться</button>
         </form>
       <p class="mailing-text">Это бесплатно</p>
+    </div>
+    </div>
     </section>
   </header>
 </div>
     </main>
     <footer class="footer">
       <div class="footer-container">
-      <img class="logo" src="img/logodevice.svg" alt="Логотип Device" width="145" height="36">
+      <img class="logo" src="img/logodeviceyellow.svg" alt="Логотип Device" width="145" height="36">
       <section class="footer-map">
         <h2 class="visually-hidden">Месторасположение</h2>
         <p class="footer-map-addres">Санкт-Петербург, набережная
@@ -175,13 +189,13 @@
       </ul>
       <ul class="socials-item">
         <li class="socials-list">
-      <a class="button" href="#"><span class="visually-hidden">Facebook</span></a>
+      <a class="button-fb" href="#"><span class="visually-hidden">Facebook</span></a>
         </li>
         <li class="socials-list">
-          <a class="button" href="#"><span class="visually-hidden">instagram</span></a>
+          <a class="button-ig" href="#"><span class="visually-hidden">instagram</span></a>
         </li>
         <li class="socials-list">
-          <a class="button" href="#"><span class="visually-hidden">Twitter</span></a>
+          <a class="button-tw" href="#"><span class="visually-hidden">Twitter</span></a>
         </li>
     </ul>
       </section>
