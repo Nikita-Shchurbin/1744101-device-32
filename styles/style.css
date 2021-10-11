@@ -72,8 +72,6 @@ body {
   background-color: var(--basic-yellow);
 }
 .container {
-  display: flex;
-  flex-direction: column;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
