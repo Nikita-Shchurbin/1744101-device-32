@@ -72,9 +72,10 @@ body {
   background-color: var(--basic-yellow);
 }
 .container {
-  max-width: 1160px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 .navigation-link {
   font-family: "Raleway", sans-serif;
@@ -157,7 +158,7 @@ body {
 .products-item {
   background-color: var(--basic-yellow);
 }
-.container {
+.container-service {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -220,7 +221,7 @@ body {
   line-height: 30px;
   text-transform: uppercase;
 }
-.container {
+.container-mailing {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
