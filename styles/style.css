@@ -72,6 +72,8 @@ body {
   background-color: var(--basic-yellow);
 }
 .container {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -92,12 +94,10 @@ body {
 }
 .navi-header {
   display: flex;
+  justify-content: space-between;
 }
 .navigation-user-menu {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
@@ -176,7 +176,9 @@ body {
 .service-img {
   width: 136px;
 }
-
+.container-details {
+  display: flex;
+}
 .details-title {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
@@ -198,6 +200,9 @@ body {
 .car-delivery {
   background-color: var(--basic-white);
 }
+.container-contacts {
+  display: flex;
+}
 .contacts {
   width: 50%;
 }
@@ -213,7 +218,11 @@ body {
   line-height: 30px;
   text-transform: uppercase;
 }
-
+.container-mailing {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
 .mailing {
   background-color: var(--basic-white);
 }
@@ -288,10 +297,8 @@ body {
   text-transform: uppercase;
   color: var(--basic-extra-white);
 }
-.footer-container {
+.container-footer {
   display: flex;
-  width: 1440px;
-  margin: 0 auto;
 }
 .logo {
 }
