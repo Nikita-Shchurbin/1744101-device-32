@@ -242,23 +242,51 @@ body {
   line-height: 50px;
   text-transform: uppercase;
 }
+.container-breadcrumb {
+  display: flex;
+  flex-direction: column;
+}
 .breadcrumb-item {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
+  list-style: none;
+}
+.catalog-filter {
+  list-style: none;
+}
+.product-list {
+  list-style: none;
+}
+.container-product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pagination {
+  list-style: none;
 }
 .filter-title {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
+  background-color: var(--basic-grey);
+}
+.sorting-type {
+  background-color: var(--basic-extra-grey);
+}
+.container-filter {
+  display: flex;
 }
 .legend {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
+}
+.pagination {
+  display: flex;
 }
 .product-card-title {
   font-family: "Rubik", sans-serif;

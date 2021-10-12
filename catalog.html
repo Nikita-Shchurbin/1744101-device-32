@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" >
     <title>HTML Academy: Девайс</title>
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
+        <div class="container">
         <a class="page-header-logo" href="index.html"></a>
         <img class="logo" src="img/logodevice.svg" alt="Логотип Device" width="145" height="36">
-        <ul class="navigation-list-first">
+        <div class="navi-header">
+        <ul class="navigation-user-menu">
           <li class="navigation-item">
             <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
               <input type="search">
@@ -19,25 +21,27 @@
           </li>
           <li>
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">Коля Петухов</span>
+              <span class="navigation-item">Коля Петухов</span>
             </a>
             </li>
             <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">выйти</span>
+              <span class="navigation-item">выйти</span>
             </a>
             </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">сравнить</span>
+              <span class="navigation-item">сравнить</span>
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">корзина</span>
+              <span class="navigation-item">корзина</span>
             </a>
           </li>
         </ul>
+        </div>
+        <div class="container-header">
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Каталог товаров</a>
@@ -52,10 +56,13 @@
             <a class="navigation-link" href="#">Контакты</a>
           </li>
         </ul>
+        </div>
       </nav>
     </header>
     <main class="main-catalog">
+      <div class="container">
       <section class="description">
+        <div class="container-breadcrumb">
         <h1 class="description-title">Моноподы для селфи</h1>
         <ul class="breadcrumb">
           <li class="breadcrumb-item">
@@ -68,8 +75,10 @@
         <a href="#">Моноподы для селфи</a>
           </li>
       </ul>
+    </div>
       </section>
       <section class="filter">
+        <div class="container-filter">
         <h2 class="filter-title">фильтр:</h2>
         <form
           class="catalog-filter"
@@ -197,6 +206,7 @@
             <option value="expensive">Сначала дорогое</option>
           </select>
         </form>
+        <div class="container-product">
           <ul class="product-list">
             <li class="product-card">
           <a class="product-card-link" href="#">
@@ -228,10 +238,12 @@
           <p class="product-card-price">4900 ₽</p>
         </li>
       </ul>
+    </div>
+  </div>
       <ul class="pagination">
         <li class="pagination-item">
           <a class="pagination-link pagination-prev pagination-disabled">
-            <span class="visually-hidden">Назад</span>
+            <span class="pagination-back">Назад</span>
           </a>
         </li>
         <li class="pagination-item">
@@ -251,13 +263,15 @@
         </li>
         <li class="pagination-item">
           <a class="pagination-link pagination-next" href="#">
-            <span class="visually-hidden">Вперед</span>
+            <span class="pagination-forward">Вперед</span>
           </a>
         </li>
       </ul>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
+        <div class="container-footer">
       <img class="logo" src="img/logodevice.svg" alt="Логотип Device" width="145" height="36">
       <section class="footer-map">
         <h2 class="visually-hidden">Месторасположение</h2>
@@ -277,13 +291,13 @@
       </ul>
       <ul class="socials-item">
         <li class="socials-list">
-      <a class="button" href="#"><span class="visually-hidden">Facebook</span></a>
+      <a class="socials-link" href="#"><span class="visually-hidden">Facebook</span></a>
         </li>
         <li class="socials-list">
-          <a class="button" href="#"><span class="visually-hidden">instagram</span></a>
+          <a class="socials-link" href="#"><span class="visually-hidden">instagram</span></a>
         </li>
         <li class="socials-list">
-          <a class="button" href="#"><span class="visually-hidden">Twitter</span></a>
+          <a class="socials-link" href="#"><span class="visually-hidden">Twitter</span></a>
         </li>
     </ul>
       </section>
@@ -291,6 +305,8 @@
         <p class="contact-phone">тел.:<a class="footer-phone" href="tel:+78128121212">+7(812) 812-12-12 </a></p>
       <img class="logo" src="img/logodeviceyellow.svg" alt="Логотип htmlacademy" width="115" height="34">
       </section>
+    </div>
+  </div>
     </footer>
   </body>
 </html>
