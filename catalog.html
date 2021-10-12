@@ -78,8 +78,18 @@
     </div>
       </section>
       <section class="filter">
-        <div class="container-filter">
+        <div class="container-title">
         <h2 class="filter-title">фильтр:</h2>
+        <form class="sorting-type">
+          <label class="sorting-type-sort" for="sorting">Сортировка:</label>
+          <select class="select-control" id="sorting" name="sorting">
+            <option value="popular">Сначала популярное</option>
+            <option value="cheap">Сначала дешёвое</option>
+            <option value="expensive">Сначала дорогое</option>
+          </select>
+        </form>
+      </div>
+        <div class="container-filter">
         <form
           class="catalog-filter"
           action="https://echo.htmlacademy.ru/"
@@ -198,14 +208,7 @@
           </fieldset>
           <button class="button" type="submit">Показать</button>
         </form>
-        <form class="sorting-type">
-          <label class="visually-hidden" for="sorting">Сортировка:</label>
-          <select class="select-control" id="sorting" name="sorting">
-            <option value="popular">Сначала популярное</option>
-            <option value="cheap">Сначала дешёвое</option>
-            <option value="expensive">Сначала дорогое</option>
-          </select>
-        </form>
+
         <div class="container-product">
           <ul class="product-list">
             <li class="product-card">
