@@ -246,6 +246,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.breadcrumb {
+  display: flex;
+}
 .breadcrumb-item {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
@@ -254,6 +257,7 @@ body {
   list-style: none;
 }
 .catalog-filter {
+  max-width: 468px;
   list-style: none;
 }
 .product-list {
@@ -263,7 +267,11 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.container-title {
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-pagination {
   display: flex;
   justify-content: space-around;
 }

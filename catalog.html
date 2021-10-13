@@ -60,7 +60,6 @@
       </nav>
     </header>
     <main class="main-catalog">
-      <div class="container">
       <section class="description">
         <div class="container-breadcrumb">
         <h1 class="description-title">Моноподы для селфи</h1>
@@ -80,14 +79,7 @@
       <section class="filter">
         <div class="container-title">
         <h2 class="filter-title">фильтр:</h2>
-        <form class="sorting-type">
-          <label class="sorting-type-sort" for="sorting">Сортировка:</label>
-          <select class="select-control" id="sorting" name="sorting">
-            <option value="popular">Сначала популярное</option>
-            <option value="cheap">Сначала дешёвое</option>
-            <option value="expensive">Сначала дорогое</option>
-          </select>
-        </form>
+
       </div>
         <div class="container-filter">
         <form
@@ -208,8 +200,21 @@
           </fieldset>
           <button class="button" type="submit">Показать</button>
         </form>
-
-        <div class="container-product">
+        </div>
+      </section>
+        <section class="sorting">
+          <div class="container">
+          <div class="container-sorting-type">
+        <form class="sorting-type">
+          <label class="sorting-type-sort" for="sorting">Сортировка:</label>
+          <select class="select-control" id="sorting" name="sorting">
+            <option value="popular">Сначала популярное</option>
+            <option value="cheap">Сначала дешёвое</option>
+            <option value="expensive">Сначала дорогое</option>
+          </select>
+        </form>
+      </div>
+        <div class="container-sorting">
           <ul class="product-list">
             <li class="product-card">
           <a class="product-card-link" href="#">
@@ -242,7 +247,7 @@
         </li>
       </ul>
     </div>
-  </div>
+    <div class="container-pagination">
       <ul class="pagination">
         <li class="pagination-item">
           <a class="pagination-link pagination-prev pagination-disabled">
@@ -270,6 +275,8 @@
           </a>
         </li>
       </ul>
+    </div>
+  </div>
       </section>
     </main>
     <footer class="footer">
