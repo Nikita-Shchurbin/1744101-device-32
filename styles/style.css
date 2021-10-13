@@ -242,10 +242,6 @@ body {
   line-height: 50px;
   text-transform: uppercase;
 }
-.container-breadcrumb {
-  display: flex;
-  flex-direction: column;
-}
 .breadcrumb {
   display: flex;
 }
@@ -277,6 +273,7 @@ body {
 }
 .pagination {
   list-style: none;
+  background-color: var(--basic-extra-grey);
 }
 .filter-title {
   font-family: "Rubik", sans-serif;
