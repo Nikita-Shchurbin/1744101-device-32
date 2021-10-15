@@ -256,25 +256,6 @@ body {
   max-width: 468px;
   list-style: none;
 }
-.product-list {
-  list-style: none;
-}
-.container-product {
-  display: flex;
-  flex-wrap: wrap;
-}
-.product-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.container-pagination {
-  display: flex;
-  justify-content: space-around;
-}
-.pagination {
-  list-style: none;
-  background-color: var(--basic-extra-grey);
-}
 .filter-title {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
@@ -282,11 +263,35 @@ body {
   text-transform: uppercase;
   background-color: var(--basic-grey);
 }
-.sorting-type {
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 69px;
+  padding-left: 72px;
+  list-style: none;
+}
+.container-product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-pagination {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pagination {
+  list-style: none;
   background-color: var(--basic-extra-grey);
+}
+
+.wrapper-catalog {
+  display: flex;
 }
 .container-filter {
   display: flex;
+}
+.sorting-type {
+  background-color: var(--basic-extra-grey);
 }
 .legend {
   font-family: "Rubik", sans-serif;
@@ -294,21 +299,32 @@ body {
   line-height: 20px;
   text-transform: uppercase;
 }
-.pagination {
-  display: flex;
+.catalog-filter {
+  max-width: 268px;
+  width: 100%;
 }
-.product-card-title {
+.catalog-products:nth-child(odd) {
+  margin-right: 40px;
+}
+.catalog-productsd-title {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
   color: var(--basic-extra-black);
 }
-.product-card-price {
+.catalog-products-price {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
+}
+.button-catalog {
+  width: 100%;
+  margin-bottom: 51px;
+}
+.pagination {
+  display: flex;
 }
 .pagination-item {
   font-family: "Rubik", sans-serif;
