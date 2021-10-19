@@ -106,8 +106,8 @@ body {
 .navigation-list {
   display: flex;
   justify-content: space-around;
-  margin: 0 auto;
-  padding: 0;
+  margin: ;
+  padding: ;
   list-style: none;
 }
 .page-container {
@@ -118,6 +118,13 @@ body {
 }
 .advantages-container {
   padding-left: 40px;
+}
+.advant-container {
+  display: flex;
+  padding-bottom: 109px;
+}
+.advant {
+  padding-right: 20px;
 }
 
 .advantages-title {
@@ -132,6 +139,8 @@ body {
 .advantages-subtitle {
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
+  margin-left: 40px;
+  padding-bottom: 70px;
 }
 .advantages-description {
   font-family: "Rubik", sans-serif;
@@ -159,6 +168,7 @@ body {
 
 .service {
   background-color: var(--basic-white);
+  margin-top: 139px;
 }
 .service-list {
   padding-left: 0;
@@ -197,6 +207,10 @@ body {
 }
 .car-delivery {
   background-color: var(--basic-white);
+  margin-top: 109px;
+}
+.container-details {
+  margin-top: 146px;
 }
 .container-contacts {
   display: flex;
