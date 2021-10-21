@@ -93,6 +93,7 @@ body {
 .navi-header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 44px;
 }
 .navigation-user-menu {
   display: flex;
@@ -125,6 +126,7 @@ body {
 }
 .advant {
   padding-right: 20px;
+  padding-left: 40px;
 }
 
 .advantages-title {
@@ -132,15 +134,21 @@ body {
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
+  margin-left: 40px;
 }
 .advantages-text {
+  padding-left: 41px;
 }
 .advantages-subtitle {
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   margin-left: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 220px;
+  margin-left: 40px;
 }
 .advantages-description {
   font-family: "Rubik", sans-serif;
@@ -164,6 +172,12 @@ body {
 }
 .products-item {
   background-color: var(--basic-yellow);
+  max-width: 160px;
+  width: 100%;
+  padding-bottom: 52px;
+  padding-top: 52px;
+  max-height: 160px;
+  height: 100%;
 }
 
 .service {
@@ -179,10 +193,17 @@ body {
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
+  margin-left: 540px;
 }
 .service-img {
   width: 136px;
+}
+.service-subtitle {
+  max-width: 497px;
+  width: 100%;
+  margin-left: 540px;
 }
 .container-details {
   display: flex;
@@ -198,16 +219,33 @@ body {
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
+  max-width: 497px;
+  width: 100%;
+  padding-right: 103px;
 }
 .details-list {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
+  margin-top: 47px;
+  max-width: 497px;
+  width: 100%;
 }
 .car-delivery {
   background-color: var(--basic-white);
   margin-top: 109px;
+}
+.car-delivery-title {
+  max-width: 910px;
+  width: 100%;
+  padding-left: 125px;
+  text-align: center;
+  padding-bottom: 43px;
+}
+.logo {
+  max-width: 125px;
+  width: 100%;
 }
 .container-details {
   margin-top: 146px;
@@ -223,12 +261,22 @@ body {
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
+  max-width: 560px;
+  width: 100%;
 }
 .contacts-subtitle {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
+}
+.contact-info {
+  max-width: 498px;
+  width: 100%;
+}
+.contacts-mode {
+  max-width: 204px;
+  width: 100%;
 }
 .container-mailing {
   max-width: 1440px;
@@ -243,6 +291,20 @@ body {
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
+  max-width: 560px;
+  width: 100%;
+  display: flex;
+  padding-top: 75px;
+  padding-left: 140px;
+  padding-left: 40px;
+}
+.mailing-text {
+  display: flex;
+}
+.mailing-subtitle {
+  max-width: 560px;
+  width: 100%;
+  padding-top: 86px;
 }
 .socials-item {
   font-family: "Raleway", sans-serif;
@@ -255,6 +317,7 @@ body {
   font-size: 50px;
   line-height: 50px;
   text-transform: uppercase;
+  margin-top: 37px;
 }
 .breadcrumb {
   display: flex;
@@ -300,6 +363,10 @@ body {
 
 .wrapper-catalog {
   display: flex;
+  margin-top: 82px;
+}
+.sorting-type-sort {
+  padding-left: 72px;
 }
 .container-filter {
   display: flex;
@@ -316,6 +383,9 @@ body {
 .catalog-filter {
   max-width: 268px;
   width: 100%;
+}
+.catalog-products-card {
+  margin-right: 40px;
 }
 .catalog-products:nth-child(odd) {
   margin-right: 40px;
@@ -334,6 +404,7 @@ body {
   text-transform: uppercase;
 }
 .button-catalog {
+  max-width: 760px;
   width: 100%;
   margin-bottom: 51px;
 }
@@ -361,6 +432,7 @@ body {
   line-height: 19px;
   text-transform: uppercase;
   color: var(--basic-extra-white);
+  margin-top: 133px;
 }
 .container-footer {
   display: flex;
@@ -380,14 +452,24 @@ body {
 }
 .footer-list {
   color: var(--basic-extra-white);
+  max-width: 148px;
+  width: 100%;
+  margin-right: 10px;
+  margin-top: 137px;
 }
 .socials-item {
   display: flex;
   align-items: center;
   list-style: none;
 }
+.socials-list {
+  padding-top: 220px;
+}
 .contact-phone {
   color: var(--basic-extra-white);
+  max-width: 293px;
+  width: 100%;
+  margin-top: 133px;
 }
 .socials-link {
   width: 40px;
