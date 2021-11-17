@@ -98,7 +98,21 @@ body {
   font-weight: 800;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
+}
+.navi-item-go {
+  margin-right: 195px;
+}
+.navi-item-compare {
+  margin-right: 64px;
+}
+.navi-item-basket {
+  margin-right: 62px;
+}
+.navigation-item {
+  letter-spacing: 0.2em;
+}
+.navigation-title {
+  padding-left: 7px;
 }
 .navigation-link-open:hover {
   opacity: 60%;
@@ -119,7 +133,6 @@ body {
   font-weight: 800;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .navigation-link-compare:hover {
   opacity: 60%;
@@ -140,7 +153,6 @@ body {
   font-weight: 800;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .navigation-link-basket:hover {
   opacity: 60%;
@@ -170,9 +182,9 @@ body {
   content: "";
   background-image: url(../img/index/schedule.svg);
   background-position: left;
-  background-size: 16px 16px;
+  background-size: 14px 16px;
   background-repeat: no-repeat;
-  width: 16px;
+  width: 14px;
   height: 16px;
 }
 .navigation-link-basket::before {
@@ -181,9 +193,9 @@ body {
   content: "";
   background-image: url(../img/index/basket.svg);
   background-position: left;
-  background-size: 16px 16px;
+  background-size: 14px 16px;
   background-repeat: no-repeat;
-  width: 16px;
+  width: 14px;
   height: 16px;
 }
 .main-container {
@@ -191,8 +203,7 @@ body {
 }
 .navi-header {
   display: flex;
-
-  margin-bottom: 29px;
+  margin-bottom: 36px;
   margin-top: 29px;
 }
 .navigation-user-menu {
@@ -201,7 +212,6 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 19px;
-  text-transform: uppercase;
   list-style: none;
   padding-left: 0;
   margin-top: 0;
@@ -212,6 +222,7 @@ body {
   width: 100%;
   display: flex;
   margin-left: 60px;
+  margin-right: auto;
 }
 .logo-header {
   margin-left: 61px;
@@ -263,9 +274,7 @@ body {
 }
 .advantages-container {
   padding-left: 40px;
-  padding-top: 121px;
-  position: relative;
-  bottom: 40px;
+  padding-top: 130px;
 }
 .advant-container {
   display: flex;
@@ -274,12 +283,17 @@ body {
   font-size: 36px;
   line-height: 30px;
 }
+.advantages {
+  padding-top: 16px;
+}
 .advantages-title {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
   max-width: 560px;
   width: 100%;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .advantages-subtitle {
   display: flex;
@@ -294,6 +308,8 @@ body {
   line-height: 21px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  margin: 0;
+  margin-bottom: 32px;
 }
 .advantages-subtitle::before {
   position: absolute;
@@ -305,7 +321,13 @@ body {
   margin: auto;
   right: 0;
   left: 0;
-  top: 7px;
+  top: 5px;
+}
+.advantages-subtitles {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
 }
 .advantages-text {
   padding-bottom: 30px;
@@ -319,14 +341,15 @@ body {
 .advant {
   max-width: 160px;
   width: 100%;
-  margin-right: 20px;
 }
 .advant-first {
   max-width: 160px;
   width: 100%;
 }
 .container.container-advant {
-  box-shadow: inset 0px 150px 0 var(--basic-yellow);
+  box-shadow: inset 0px 172px 0 var(--basic-yellow);
+  position: relative;
+  z-index: 0;
 }
 .container.container-advant::before {
   counter-increment: section;
@@ -337,11 +360,12 @@ body {
   font-size: 180px;
   line-height: 30px;
   color: var(--basic-extra-white);
-  right: 290px;
-  bottom: 42px;
+  right: 70px;
+  top: 102px;
   display: flex;
   text-align: right;
   align-items: center;
+  z-index: -1;
 }
 .products {
   padding-bottom: 69px;
@@ -376,6 +400,9 @@ body {
   grid-gap: 40px;
   text-align: center;
   list-style: none;
+  padding-left: 0;
+  margin-top: -27px;
+  margin-bottom: 0;
 }
 .products-link {
   color: black;
@@ -446,8 +473,8 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
-  text-transform: uppercase;
-  padding-top: 146px;
+  padding-top: 50px;
+  margin-bottom: 45px;
 }
 .details-title::before {
   position: absolute;
@@ -464,7 +491,6 @@ body {
   line-height: 30px;
   max-width: 497px;
   width: 100%;
-  padding-right: 103px;
   padding-bottom: 8px;
 }
 .details-subtitles {
@@ -479,16 +505,19 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 20px;
-  text-transform: uppercase;
   margin-top: 47px;
   max-width: 497px;
   width: 100%;
   padding: 0;
-  padding-top: 23px;
-  padding-bottom: 52px;
+  padding-bottom: 27px;
+}
+.details-item {
+  padding-bottom: 22px;
+  margin-left: 32px;
 }
 .details {
   width: 50%;
+  margin-top: 56px;
 }
 .details-write {
   position: relative;
@@ -504,9 +533,10 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
-  margin-top: 52px;
   letter-spacing: 0.2em;
-  margin-top: 52px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 89px;
 }
 .button::before {
   position: absolute;
@@ -518,7 +548,7 @@ body {
   margin: auto;
   right: 0;
   left: 0;
-  top: 7px;
+  top: 5px;
 }
 .car-delivery {
   margin-top: 90px;
@@ -537,6 +567,21 @@ body {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 0.2em;
+  padding-left: 256px;
+  color: var(--basic-black);
+}
+.car-delivery-title::before {
+  content: "";
+  width: 125px;
+  height: 100%;
+  background-color: var(--basic-yellow);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(../img/index/delivery-car.svg);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
 .container-delivery {
   display: flex;
@@ -545,6 +590,8 @@ body {
   height: 100px;
   margin: 0;
   padding: 0;
+  position: relative;
+  text-decoration: none;
 }
 .container-delivery:active {
   opacity: 30%;
@@ -578,14 +625,14 @@ body {
   width: 100%;
 }
 .container-details {
-  margin-bottom: 87px;
-  margin-top: 146px;
 }
 .container-contacts {
   display: flex;
 }
 .contacts {
   width: 50%;
+  margin-top: 56px;
+  margin-left: 39px;
 }
 .contacts-phone {
   color: var(--basic-extra-black);
@@ -595,10 +642,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
-  text-transform: uppercase;
   max-width: 560px;
   width: 100%;
-  padding-top: 146px;
+  padding-top: 50px;
+  margin-bottom: 45px;
 }
 .contacts-title::before {
   position: absolute;
@@ -613,15 +660,15 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   line-height: 30px;
-  text-transform: uppercase;
 }
-.contact-info {
-  max-width: 498px;
-  width: 100%;
+.contacts-addres {
+  margin: 0;
+  padding: 0;
 }
 .contacts-mode {
   max-width: 204px;
   width: 100%;
+  margin-bottom: 58px;
 }
 .container-mailing {
   max-width: 1440px;
@@ -631,7 +678,7 @@ body {
 .mailing {
   background-color: var(--basic-white);
   padding-top: 75px;
-  padding-bottom: 134px;
+  padding-bottom: 130px;
 }
 .mailing-title {
   font-family: "Raleway", sans-serif;
@@ -646,13 +693,12 @@ body {
 }
 .mailing-text {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 .mailing-subtitle {
   max-width: 560px;
   width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 6px;
 }
 .mailing-info {
   display: flex;
@@ -666,6 +712,8 @@ body {
   justify-content: space-between;
 }
 .button-mailing {
+  width: 260px;
+  height: 55px;
   border: 3px solid rgba(0, 0, 0, 0.1);
 }
 .button-mailing:focus {
@@ -715,7 +763,7 @@ body {
   background-repeat: no-repeat;
   width: 14px;
   height: 14px;
-  padding-left: 21px;
+  padding-left: 43px;
 }
 .socials-item {
   font-family: "Raleway", sans-serif;
@@ -924,6 +972,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px;
 }
 .container-footer::before {
   content: "";
@@ -937,6 +986,7 @@ body {
 }
 .footer-menu {
   display: flex;
+  min-width: 458px;
 }
 .footer-style {
   color: var(--basic-white);
@@ -961,13 +1011,13 @@ body {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
-  margin: 0;
+  letter-spacing: 0.2em;
 }
 .footer-list {
   color: var(--basic-extra-white);
-  max-width: 148px;
+  min-width: 148px;
   width: 100%;
-  margin-right: 7px;
+  margin-right: 14px;
   text-transform: uppercase;
 }
 
@@ -996,7 +1046,7 @@ body {
 .contact-phone {
   color: var(--basic-extra-white);
   max-width: 293px;
-  margin-top: 0;
+  margin-top: 16px;
   margin-bottom: 0;
 }
 .socials-link {
